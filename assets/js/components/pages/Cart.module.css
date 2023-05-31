@@ -1,0 +1,43 @@
+.cart {
+
+}
+
+.cart-main {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 45px;
+}
+
+.cart-footer {
+    display: flex;
+    justify-content: end;
+    flex-direction: row;
+    padding: 0 45px;
+    align-items: end;
+}
+
+.cart-footer-price {
+    margin-right: 25px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.user-info-wrapper {
+    padding: 15px;
+    border: 1px solid #5eb5e0;
+    border-radius: 25px;
+    width: 48%;
+}
+
+.cart .product-list-wrapper {
+    padding: 15px;
+    border: 1px solid #5eb5e0;
+    border-radius: 25px;
+    width: 48%;
+}
+
+.cart .discount-code {
+    width: 210px;
+    margin-right: 25px;
+}

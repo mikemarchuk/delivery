@@ -1,0 +1,7 @@
+.shop .shop-list {
+    padding: 15px;
+}
+
+.shop  .shop-item {
+    display: flex !important;
+}

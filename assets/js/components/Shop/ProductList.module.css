@@ -1,0 +1,26 @@
+.shop .product-list {
+    display: flex;
+    padding: 45px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.shop .product-item {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    border: 1px solid #5eb5e0;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 15px;
+}
+
+.shop .product-item-title {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.shop .product-item-price {
+    font-size: 16px;
+    margin-bottom: 10px;
+}

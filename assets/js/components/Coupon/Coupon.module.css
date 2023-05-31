@@ -1,0 +1,32 @@
+.coupon-page .coupon-list {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.coupon-page .coupon-item {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    border: 1px solid #5eb5e0;
+    border-radius: 10px;
+    padding: 25px;
+}
+
+.coupon-page .coupon-item .coupon-title {
+    font-size: 24px;
+    font-weight: bold;
+    padding-bottom: 30px;
+}
+
+.coupon-page .coupon-item .coupon-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.coupon-page .coupon-item .coupon-info .coupon-code {
+    cursor: pointer;
+    color: #0a53be;
+}

@@ -1,0 +1,31 @@
+.cart .product-list {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+}
+
+.cart .product-item {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #5eb5e0;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 15px;
+    width: auto;
+}
+
+.cart .product-item-title {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.cart .product-item-action {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+
+.cart .product-item-price {
+    display: flex;
+    flex-direction: column;
+}

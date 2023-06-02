@@ -16,3 +16,5 @@ This setting is used in the `AddressAutocomplete` component.
 5. Go to project directory and run application using `symfony server:start` command.
 6. Open [http://127.0.0.1:8000/](http://127.0.0.1:8000/) in browser.
 7. Use application.
+
+[![Run on Google Cloud](https://deploy.cloud.run/button.svg)](https://deploy.cloud.run)
